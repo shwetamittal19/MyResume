@@ -1,0 +1,786 @@
+body
+{
+    margin:0px;
+}
+html
+{
+    /*margin:3rem;
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color:rgb(232, 226, 247);*/
+}
+/*--------header-------*/
+
+#body-header
+{
+    height:65vh;
+    opacity: 0.8;
+    background-image:url(macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+    
+}
+
+/*------horizontal lis----*/
+#burger-icon
+{
+    margin-left:3%;
+    opacity:0;
+}
+#burger-icon i
+{
+    color:white;
+}
+.horizontal-list
+{
+    
+    list-style: none;
+    padding-left:0px;
+    margin:0px;
+    
+    
+}
+.text-align
+{
+    text-align: center;
+}
+.horizontal-list li
+{
+    display: inline-block;
+    font-size:1.5rem;
+    font-weight:100;
+   
+}
+.horizontal-list li a
+{
+    text-decoration: none;
+    color:white;
+    
+    
+    
+}
+#te li
+{
+    margin: 0px 17px 17px 0px;
+}
+#te li a
+{
+    transition: color 0.5s, border-bottom 1s;
+
+}
+#te li a:hover
+{
+    border-bottom: 1px solid #352b2b;
+    color:#352b2b;
+    transition: color 2s, border-bottom 1.5s;
+    
+}
+#name-socio
+{
+    margin:20vh;
+}
+#name
+{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    
+}
+.links a
+{
+    margin: 0px;
+}
+.links li a i
+{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+    
+    transition:box-shadow 1s;
+}
+
+.links li a i:hover
+{
+    box-shadow: 0px 0px 6px 4px royalblue;
+    
+}
+
+
+
+/*---for all section---*/
+section
+{
+    width:100%;
+    height:auto;
+    
+}
+section:nth-child(2n)
+{
+    background-color: rgb(232, 226, 247);
+}
+section:nth-child(2n+1)
+{
+    background-color: white;
+}
+/*------About section------*/
+#about
+
+{
+    height: auto;
+    width: 100%;
+    position: relative;
+    
+}
+#my-pic
+{
+    height: 12rem;
+    width: 12rem;
+    margin:auto;
+    margin-top: -14vh;
+}
+#my-pic img
+{
+   border:3px solid white;
+   border-radius:50%;
+   height:100%;
+   width:100%;
+   box-shadow:0px 0px 10px 4px rgb(216, 211, 211);
+
+}
+#about p
+{
+    margin:2rem;
+}
+.fonting
+{
+    
+    font-size: 1.2rem;
+    color:grey;
+    text-align: justify;
+    line-height:28px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mid
+{
+    color:#2857a4;
+}
+#myself #college
+{
+    text-decoration:none;
+}
+#college:hover
+{
+    color:rgb(57, 74, 97);
+    background-color:rgb(199, 190, 190);
+    box-shadow:0px 0px 6px 4px rgb(151, 146, 146);
+
+}
+#myself
+{
+    margin-top:5%;
+    margin-left:25%;
+    margin-right: 25%;
+}
+#about p
+{
+    margin-bottom:7rem;
+    transition: step-start;
+}
+main
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*------skills------*/
+#skills,#Portfolio
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-heading
+{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+    text-align: center;
+}
+.section-heading span
+{
+    font-size: 40px;
+    color:#2857a4;
+    display:inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;;
+}
+.skills-display
+{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 7rem;
+
+}
+.mb75px {
+    margin-bottom: 75px;
+}
+.skill-progress
+{
+    width: 12.5rem;
+    height:2.5rem;
+    background-color: lightgrey;
+    border-radius: 1.1rem;
+    box-shadow: 2px 2px 1px 2px #979a8d inset;
+    margin:2rem;
+    
+    
+}
+.skill-progress > div
+{
+    border-radius: 18px 0px 0px 18px;
+    
+    
+}
+.s1
+{
+    width:80%;
+    background-color: #2857a4;
+    
+}
+.bor
+{
+    box-shadow: 3px 0px 3px 0px #979a8d;
+    height:inherit;
+}
+.s2
+{
+    width:90%;
+    background-color:#ec4d1c;
+}
+.s3
+{
+    width:80%;
+    background-color:#93738c;
+}
+.s4
+{
+    width:70%;
+    background-color: #0b8176;
+}
+.s5
+{
+    width:90%;
+    background-color: #2857a4;
+}
+.s6
+{
+    width:50%;
+    background-color: #93738c;
+}
+.skill-name
+{
+    padding-top:8px;
+}
+.skill-name span {
+    color: white;
+    font-weight:500;
+    letter-spacing:0.01rem;
+    font-size: 1.12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+
+
+
+
+/* ------portfolio-------*/
+
+.Port-display
+{
+    width:85%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-bottom:4.5rem;
+}
+.port-list
+{
+    
+    margin-right:8%;
+    margin-bottom:3rem;
+    margin-left:8%;
+    width: 12.5rem;
+    height:12.5rem;
+    position: relative;
+}
+.port-list img
+{
+    
+    width: 100%;
+    height:100%;
+    display: block;
+    
+}
+
+/*.port-list img:hover
+{
+    background-color: #bfc2b6;
+    box-shadow:0px 0px 6px 6px rgb(197, 235, 197);
+    transition:background-color 3s , box-shadow 1s;
+}*/
+
+.t
+{
+    margin-top:5%;
+    position: absolute;
+    font-size: 1.1rem;
+    top:10%;
+    left:10%;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    /*text-shadow:2px 2px black;*/
+}
+.overlay
+{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    
+}
+.port-list:hover .overlay
+{
+    opacity: 1;
+    transition:0.7s ease;
+}
+.port-list:hover
+{
+    background-color: #bfc2b6;
+    
+    box-shadow:0px 0px 6px 6px rgb(197, 235, 197);
+    transition:background-color 0.4s , box-shadow 0.5s;
+}
+
+/*-----------Contact------*/
+#contact
+{
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+}
+#contact,form input
+{
+    
+    background-image:linear-gradient(to right,#324588,#403066 60vw);
+}
+#details button
+{
+    color:white;
+    height:2rem;
+    width:auto;
+    border:1.5px solid white;
+    background-image:linear-gradient(to right,#324588,#403066 60vw);
+}
+.cont
+{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+    text-align: center;
+}
+.cont span
+{
+    font-size: 40px;
+    color:white;
+    display:inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;;
+}
+
+#details
+{
+    margin-left:13%;
+    vertical-align: top;
+    display: inline-block;
+    color:white;
+    width:33%;
+    
+    
+}
+#info
+{
+    
+    vertical-align: top;
+    display: inline-block;
+    color:white;
+    width:35%;
+    margin-left:8%;
+   
+}
+#info span i
+{
+    margin-right:6px;  
+}
+#info h3
+{
+    font-weight: 700;
+    font-size: 1.2rem;
+    
+    
+}
+.font
+{
+    
+    font-size: 0.8rem;
+    color:white;
+    text-align: justify;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+form input
+{
+    border:0 solid white;
+    border-bottom: 1.5px solid white;
+    width:90%;
+    margin:10px;
+    padding:4px;
+    color:white;
+}
+#temp
+{
+    margin-top:2.4rem;
+}
+#sub
+{
+    margin-top:1.8rem;
+    text-align: center;
+}
+#s
+{
+    padding-bottom:20px;
+}
+#contact li
+{
+    margin-left:1.5rem;
+}
+/*------------Work experience-------*/
+.timeline
+{
+    position: relative;
+    width:70%;
+   
+    margin-left:17%;
+
+}
+.timeline-box
+{
+    position: relative;
+    width:35%;
+    vertical-align: middle;
+    margin:2px;
+    min-height:150px;
+    margin-bottom:5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.timeline-box:nth-child(2n)
+{
+    left:53%;
+}
+.divider
+{
+    position: absolute;
+    height: 90%;
+    width: 0px;
+    border: 1.45px dashed#0096fa6b;
+    top:7%;
+    left:45%;
+    
+}
+.traveler
+{
+    position: sticky;
+    top:25%;
+    transform:rotate(90deg);
+    z-index: 4;
+    color:#2857a4;
+}
+.timeline-box::before
+{
+    content:'';
+    border-radius: 10px;
+    background-image: url(images/cn.PNG);
+    display: inline-block;
+    position: absolute;
+    height:2.5rem;
+    width: 2.5rem;
+    top:10%;
+    left:0%;
+
+}
+.timeline-box:nth-child(2n+1)::after
+{
+    content:'';
+    border-radius: 50%;
+    display: inline-block;
+    top:32%;
+    right:-30.5%;
+    position: absolute;
+    width: 0.7rem;
+    height:0.7rem;
+    background-color:#d3d3d3;
+    z-index: 2;
+}
+.timeline-box:nth-child(2n)::after
+{
+    content:'';
+    border-radius: 50%;
+    display: inline-block;
+    top:32%;
+    left:-25%;
+    position: absolute;
+    width: 0.7rem;
+    height:0.7rem;
+    background-color:#d3d3d3;
+    z-index: 2;
+}
+.timeline-box .mid
+{
+    width:80%;
+    margin-left:20%;
+
+}
+.des
+{
+    color:#2857a4;
+    text-align:end;
+    
+}
+.comp
+{
+    margin-top: -0.7rem;
+    color: #ff6333;
+    margin-bottom:-0.5rem;
+    text-align:end;
+}
+
+.rest-content
+{
+    color:#959398;
+    font-size:0.75rem;
+    font-weight: 525;
+    text-align:end;
+}
+.inf 
+{
+    text-align: justify;
+}
+
+
+/*-----------Education-----------*/
+#education .timeline-box::before
+{
+    content:'';
+    border-radius: 10px;
+    background-image: url(images/iid.PNG);
+    display: inline-block;
+    position: absolute;
+    height:2.5rem;
+    width: 2.5rem;
+    top:10%;
+    left:0%;
+
+}
+
+
+
+
+
+
+
+
+
+/*
+#social-side ul
+{
+    position: fixed;
+    left:0px;
+    top:200px;
+    
+
+}
+#social-side li
+{
+    display:block;
+}
+#one
+{
+    color: #2857a4;
+}
+#two
+{
+    color: #ec4d1c;
+}
+#three
+{
+    color:brown;
+}
+#four
+{
+    color:blue;
+}
+#five
+{
+    color:red;
+}
+
+
+
+#contact
+{
+    position: relative;
+}
+#arrow
+{
+    position: absolute;
+    bottom:5%;
+    right:5%;
+}
+#arrow a
+{
+    color:white;
+}
+
+
+#go-down
+{
+    position: fixed;
+    top:5%;
+    right:8%;
+
+}
+#go-down a
+{
+    color:white;
+}
+*/
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px)
+{
+html
+{
+    margin:0px;
+}
+
+#about p
+{
+    
+    margin-left:5%;
+    margin-right: 5%;
+    width:90%;
+}
+.fonting
+{
+    
+    font-size: 1rem;
+    color:grey;
+    text-align: justify;
+    line-height:28px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.timeline-box
+{
+    left:10% !important;
+    width:85%;
+}
+
+.divider
+{
+    top:7%;
+    left:2%;
+    
+}
+.timeline-box::after
+{
+    top: 30% !important;
+    left:-12% !important;
+}
+#body-header
+{
+    height:50vh;
+}
+#name-socio
+{
+    margin:4vh;
+    margin-left:8vh;
+    
+}
+#name
+{
+    font-size: 2.3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    
+}
+
+#burger-icon
+{
+    opacity:1;
+    display: inline-block;
+    vertical-align: top;
+}
+#te
+{
+    display:inline-block;
+    position: absolute;
+    height:0rem;
+    width:0rem;
+    overflow:hidden;
+    padding-top:2%;
+    background-color: #959398;
+    padding-bottom:2%;
+    text-align: center;
+}
+#te li 
+{
+    display: block;
+    margin: 0px 5px 5px 0px;
+    font-size:0.8rem;
+}
+
+#te:target{
+    
+    height:8rem;
+    width:5rem; 
+
+    
+    
+}
+
+
+
+
